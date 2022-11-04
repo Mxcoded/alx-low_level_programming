@@ -1,15 +1,18 @@
 #include <stdio.h>
 /**
-* main - Print the program name
+* main - Entry Point
+*
 * @argc: Counter
 * @argv: Array
+* Return: Always 0
 */
 int main(int argc, char *argv[])
 {
 	int i;
+
 	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n",argv[i]);
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
