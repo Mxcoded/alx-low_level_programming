@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* Main - Entry point
+* main - Entry point
 *
 * @argc: Counter
 * @argv: Array
