@@ -10,23 +10,23 @@
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-    hash_table_t *table;
+	hash_table_t *table;
 
-    table = malloc(sizeof(*table));
-    if (table == NULL)
-    {
-        return (NULL);
-    }
+	table = malloc(sizeof(*table));
+	if (table == NULL)
+	{
+		return (NULL);
+	}
 
-    table->array = calloc(size, sizeof(*(table->array)));
-    if (table->array == NULL)
-    {
-        free(table);
-        return (NULL);
-    }
+	table->array = calloc(size, sizeof(*(table->array)));
+	if (table->array == NULL)
+	{
+		free(table);
+		return (NULL);
+	}
 
-    table->size = size;
+	table->size = size;
 
-    return (table);
+	return (table);
 }
 
