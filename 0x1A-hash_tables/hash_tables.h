@@ -3,7 +3,7 @@
 
 /**
  *  struct hash_node_s - Node of a hash table
- * 
+ *
  *  @key: The key, string
  *  The key is unique in the HashTable
  *  @value: The value corresponding to a key
@@ -11,9 +11,9 @@
  */
 typedef struct hash_node_s
 {
-    unsigned long int key;
-    char *value;
-    struct hash_node_s *next;
+	unsigned long int key;
+	char *value;
+	struct hash_node_s *next;
 } hash_node_t;
 
 /**
@@ -26,8 +26,8 @@ typedef struct hash_node_s
  */
 typedef struct hash_table_s
 {
-    unsigned long int size;
-    hash_node_t **array;
+	unsigned long int size;
+	hash_node_t **array;
 } hash_table_t;
 
 hash_table_t *hash_table_create(unsigned long int size);
