@@ -1,0 +1,3 @@
+all:
+	@echo "creating School Executable"
+	gcc school.c -o school
