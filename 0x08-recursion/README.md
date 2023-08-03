@@ -39,6 +39,27 @@ Key benefits of recursion are that it can make code more concise and elegant for
 Overall, recursion is a very useful technique in programming for solving problems that can be broken down into smaller sub-problems.</p>
 ## Warning!!!
 <p> When using a recursion function always remember to set your Base Case</p>
+### In what situations you should implement recursion
+<p>
+Here are some common situations where recursion is an appropriate and elegant solution:
 
+- **Traversing tree or graph data structures** - Recursive algorithms make it easy to traverse every node/vertex by recursively calling the traversal function on each child node.
+
+- **Divide and conquer algorithms** - Recursive functions can break down complex problems into simpler sub-problems repeatedly until they become trivial to solve. E.g. merge sort, quick sort.
+
+- **Dynamic programming** - Storing results of recursive calls and reusing them instead of recomputing is an optimization known as dynamic programming. E.g. Fibonacci sequence. 
+
+- **Backtracking algorithms** - Recursive backtracking is useful for searching through spaces such as game move trees, maze paths, etc.
+
+- **Mathematical computations** - Factorial, GCD, permutations/combinations of sets use recursion effectively.
+
+- **Advanced data types** - Recursive functions can be used to work with complex recursive data types like JSON or nested objects.
+
+- **Search operations** - Recursive binary search, depth first search and breadth first search rely on recursive calls.
+
+- **String operations** - Palindrome checking, parsing nested expressions, etc can be done recursively.
+
+The key considerations are breaking down a complex problem into simpler sub-problems, and repeated calling on smaller instances of the same problem. Any problem that exhibits these traits is a good candidate for recursion.
+</p>
 ### Author
 [Oluwasheyi Makanjuola](https://github.com/Mxcoded)
